@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Saludar 
-        uses: actions/hello-world-action-by-soakb432@v1.0
+        uses: soakb432/hello-world-action-by-soakb432@v1.0
         with:
           who-to-greet: 'Mona'
 
