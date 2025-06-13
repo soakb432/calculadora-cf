@@ -8,6 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Saludar 
+        uses: actions/hello-world-action-by-soakb432@v1.0
+        with:
+          who-to-greet: 'Mona'
+
       - name: Hacer copia local del repo
         uses: actions/checkout@v4.2.2
 
